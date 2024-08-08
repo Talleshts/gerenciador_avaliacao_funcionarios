@@ -1,10 +1,10 @@
-# repository_dao
+# gerenciador_funcionarios
 
-Este projeto é uma aplicação Java que demonstra a integração dos padrões Repository e DAO (Data Access Object). Utiliza o Maven como ferramenta de gerenciamento de projetos e é desenvolvido com Java 17.
+Este projeto é uma aplicação Java que demonstra a integração dos padrões Repository, DAO (Data Access Object) e Factory Method. Utiliza o Maven como ferramenta de gerenciamento de projetos e é desenvolvido com Java 17.
 
 ## 🚀 Sobre o Projeto
 
-**Gerenciador de Funcionários** é um exemplo de sistema para gerenciar dados de funcionários em uma empresa fictícia. O projeto permite realizar operações básicas como busca, inserção e exclusão de dados relacionados a funcionários e suas avaliações.
+**Gerenciador de Funcionários** é um exemplo de sistema para gerenciar dados de funcionários em uma empresa fictícia. O projeto permite realizar operações básicas como busca, inserção e exclusão de dados relacionados a funcionários e suas avaliações. Além disso, utiliza o padrão Factory Method para a criação de objetos relacionados aos funcionários e avaliações.
 
 ### Principais Funcionalidades
 
@@ -19,6 +19,7 @@ Este projeto é uma aplicação Java que demonstra a integração dos padrões R
 - **Maven**: Gerenciador de dependências e build.
 - **Repository Pattern**: Padrão de design para encapsular o acesso a dados.
 - **DAO Pattern**: Padrão de design para separar a lógica de acesso a dados da lógica de negócios.
+- **Factory Method Pattern**: Padrão de design para criar objetos sem especificar a classe exata do objeto a ser criado.
 
 ## 🚧 Estrutura do Projeto
 
@@ -27,6 +28,7 @@ O projeto está estruturado da seguinte forma:
 - **`src/main/java`**: Contém o código fonte do projeto.
   - **`dao`**: Pacote que inclui as classes DAO responsáveis pelo acesso aos dados.
   - **`repository`**: Pacote que contém as classes de repositório que integram diferentes DAOs.
+  - **`factory`**: Pacote que inclui as implementações do padrão Factory Method para a criação de objetos.
   - **`model`**: Pacote para as classes de modelo, representando as entidades do sistema (Funcionário, Avaliação, etc.).
   - **`service`**: Pacote para a lógica de negócios e serviços relacionados aos funcionários e avaliações.
 
@@ -37,13 +39,13 @@ O projeto está estruturado da seguinte forma:
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/usuario/repository_dao.git
+   git clone https://github.com/usuario/gerenciador_funcionarios.git
    ```
 
 2. **Navegue até o Diretório do Projeto:**
 
    ```bash
-   cd repository_dao
+   cd gerenciador_funcionarios
    ```
 
 3. **Compile e Execute o Projeto com Maven:**
@@ -54,7 +56,7 @@ O projeto está estruturado da seguinte forma:
    mvn clean install
    ```
 
-   Para executar a aplicação (supondo que você tenha uma classe principal configurada):
+   Para executar a aplicação:
 
    ```bash
    mvn exec:java -Dexec.mainClass="com.exemplo.MainClass"
@@ -75,7 +77,3 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ## 📧 Contato
 
 Para dúvidas ou sugestões, entre em contato com [talles0h@gmail.com](mailto:talles0h@gmail.com).
-
----
-
-Sinta-se à vontade para ajustar qualquer parte conforme necessário para atender melhor às necessidades do seu projeto e à sua preferência pessoal.
