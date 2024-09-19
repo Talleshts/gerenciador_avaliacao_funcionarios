@@ -1,4 +1,4 @@
-# gerenciador_funcionarios
+# gerenciador_avaliacao_funcionarios
 
 Este projeto é uma aplicação Java que demonstra a integração dos padrões Repository, DAO (Data Access Object) e Factory Method. Utiliza o Maven como ferramenta de gerenciamento de projetos e é desenvolvido com Java 17.
 
