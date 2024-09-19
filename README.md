@@ -32,20 +32,18 @@ O projeto está estruturado da seguinte forma:
   - **`model`**: Pacote para as classes de modelo, representando as entidades do sistema (Funcionário, Avaliação, etc.).
   - **`service`**: Pacote para a lógica de negócios e serviços relacionados aos funcionários e avaliações.
 
-- **`src/test/java`**: Contém os testes unitários e de integração.
-
 ## 💻 Como Rodar o Projeto
 
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/usuario/gerenciador_funcionarios.git
+   git clone https://github.com/usuario/gerenciador_avaliacao_funcionarios.git
    ```
 
 2. **Navegue até o Diretório do Projeto:**
 
    ```bash
-   cd gerenciador_funcionarios
+   cd gerenciador_avaliacao_funcionarios
    ```
 
 3. **Compile e Execute o Projeto com Maven:**
@@ -59,7 +57,7 @@ O projeto está estruturado da seguinte forma:
    Para executar a aplicação:
 
    ```bash
-   mvn exec:java -Dexec.mainClass="com.exemplo.MainClass"
+   mvn exec:java -Dexec.mainClass="com.ufes.gerenciadoravaliacoesfuncionarios.Principal"
    ```
 
 ## 🔧 Configuração do Ambiente
